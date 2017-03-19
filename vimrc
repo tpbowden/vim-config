@@ -5,8 +5,8 @@ source ~/.vim/plugins.vim
 call plug#end()
 
 if $TERM_PROGRAM =~ "iTerm"
-    let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
-    let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
+  let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
+  let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
 endif
 
 set hidden
@@ -24,4 +24,7 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
+let mapleader = ","
 
+map <silent> <leader>f :CtrlP<cr>
+map <silent> <leader>m :Explore<cr>
