@@ -1,11 +1,7 @@
 set nocompatible
 
 call plug#begin('~/.vim/plugged')
-
-if filereadable(expand("~/.vim/plugins.vim"))
-  source ~/.vim/plugins.vim
-endif
-
+source ~/.vim/plugins.vim
 call plug#end()
 
 if $TERM_PROGRAM =~ "iTerm"
