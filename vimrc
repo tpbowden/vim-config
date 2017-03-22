@@ -19,6 +19,7 @@ set t_Co=256
 set background=dark
 set backupdir=/var/tmp,~/.tmp,.
 set directory=/var/tmp,~/.tmp,.
+set colorcolumn=120
 
 colorscheme molokai
 
@@ -26,9 +27,17 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 
 let mapleader = ","
 
-map <silent> <leader>f :CtrlP<cr>
 map <silent> <Leader><Leader> :b#<CR>
+nmap <silent> <unique> <Leader>. :BufExplorer<CR>
 nmap <silent> <Leader>m :NERDTreeToggle<CR>
+
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
+map <leader>rt :!ctags -R .<CR><CR>
+
 
 " ----------------------------------------------
 " Setup NERDTree
