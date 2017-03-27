@@ -24,8 +24,11 @@ set colorcolumn=120
 colorscheme molokai
 
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+let g:gitgutter_sign_column_always = 1
 
 let mapleader = ","
+
+let g:NERDSpaceDelims = 1
 
 map <silent> <Leader><Leader> :b#<CR>
 nmap <silent> <unique> <Leader>. :BufExplorer<CR>
@@ -147,4 +150,19 @@ endfunction
 call s:DefineCommand("cd", "ChangeDirectory")
 call s:DefineCommand("touch", "Touch")
 call s:DefineCommand("rm", "Remove")
+
+" ----------------------------------------------
+" Setup CtrlP File Finder
+" ----------------------------------------------
+
+let g:ctrlp_show_hidden = 1
+
+" Use Ag for search if its available on this system
+if executable('ag')
+  set grepprg=ag\ --nogroup\ --nocolor\ --ignore-case\ --column
+  set grepformat=%f:%l:%c:%m,%f:%l:%m
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+  let g:ctrlp_use_caching = 0
+endif
+
 
