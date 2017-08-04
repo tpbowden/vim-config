@@ -14,3 +14,4 @@ Plug 'tpope/vim-endwise' " Automatic ends
 Plug 'ludovicchabant/vim-gutentags' " Autogenerate ctags
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline' " Status bar at the bottom
+Plug 'fatih/vim-go' " Golang helpers
