@@ -21,11 +21,11 @@ set backupdir=/var/tmp,~/.tmp,.
 set directory=/var/tmp,~/.tmp,.
 set colorcolumn=120
 set nowrap
+set signcolumn=yes
 
 colorscheme molokai
 
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
-let g:gitgutter_sign_column_always = 1
 
 let mapleader = ","
 
