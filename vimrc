@@ -20,7 +20,7 @@ set background=dark
 set backupdir=/var/tmp,~/.tmp,.
 set directory=/var/tmp,~/.tmp,.
 set colorcolumn=120
-set synmaxcol=120
+set synmaxcol=200
 set nowrap
 set signcolumn=yes
 
