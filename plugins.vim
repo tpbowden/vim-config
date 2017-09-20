@@ -13,6 +13,7 @@ Plug 'tpope/vim-endwise' " Automatic ends
 Plug 'tpope/vim-projectionist' " Magic stuff
 Plug 'tpope/vim-rails' " Rails helpers
 Plug 'tpope/vim-rake' " Ruby helpers
+Plug 'tpope/vim-repeat' " Repeat commands with .
 Plug 'tpope/vim-sensible' " Sensible defaults
 Plug 'tpope/vim-surround' " Change surrounding quotes / parens easily
 Plug 'vim-airline/vim-airline' " Status bar at the bottom
