@@ -3,6 +3,7 @@ Plug 'airblade/vim-gitgutter' " Show git stuff on the left
 Plug 'flazz/vim-colorschemes' " Selection of colour schemes
 Plug 'rking/ag.vim' " Search through project
 Plug 'scrooloose/nerdtree' " File browser
+Plug 'scrooloose/nerdcommenter' " Easily comment things out
 Plug 'sheerun/vim-polyglot' " Syntax for loads of languages
 Plug 'janko-m/vim-test' " Run tests with ,T
 Plug 'tpope/vim-projectionist' " Magic stuff
