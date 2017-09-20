@@ -8,10 +8,11 @@ Plug 'janko-m/vim-test' " Run tests with ,T
 Plug 'tpope/vim-projectionist' " Magic stuff
 Plug 'tpope/vim-rails' " Rails helpers
 Plug 'tpope/vim-rake' " Ruby helpers
+Plug 'tpope/vim-surround' " Change surrounding quotes / parens easily
 Plug 'kien/ctrlp.vim' " Fuzzy search
 Plug 'jlanzarotta/bufexplorer' " Switch between open buffers
 Plug 'tpope/vim-endwise' " Automatic ends
 Plug 'ludovicchabant/vim-gutentags' " Autogenerate ctags
 Plug 'scrooloose/nerdcommenter'
 Plug 'vim-airline/vim-airline' " Status bar at the bottom
-Plug 'fatih/vim-go' " Golang helpers
+Plug 'slime-lang/vim-slime-syntax'
