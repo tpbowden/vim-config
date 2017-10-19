@@ -73,3 +73,15 @@ if executable('ag')
 endif
 
 highlight Visual cterm=bold ctermbg=Blue ctermfg=NONE
+
+" ----------------------------------------------
+" Setup Ack.vim to use silver searcher
+" ----------------------------------------------
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep --smart-case'
+endif
+
+cnoreabbrev ag Ack
+cnoreabbrev aG Ack
+cnoreabbrev Ag Ack
+cnoreabbrev AG Ack
