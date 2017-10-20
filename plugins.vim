@@ -1,5 +1,6 @@
 Plug 'airblade/vim-gitgutter' " Show git stuff on the left
-Plug 'fatih/vim-go'
+Plug 'ajh17/VimCompletesMe' " Tab completion
+Plug 'fatih/vim-go' " Golang helpers
 Plug 'flazz/vim-colorschemes' " Selection of colour schemes
 Plug 'janko-m/vim-test' " Run tests with ,T
 Plug 'jlanzarotta/bufexplorer' " Switch between open buffers
