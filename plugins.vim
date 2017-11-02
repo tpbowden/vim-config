@@ -19,4 +19,3 @@ Plug 'tpope/vim-repeat' " Repeat commands with .
 Plug 'tpope/vim-sensible' " Sensible defaults
 Plug 'tpope/vim-surround' " Change surrounding quotes / parens easily
 Plug 'vim-airline/vim-airline' " Status bar at the bottom
-Plug 'w0rp/ale' " Acynchronous linting
