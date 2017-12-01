@@ -10,6 +10,7 @@ Plug 'mileszs/ack.vim' " Search through project
 Plug 'scrooloose/nerdcommenter' " Easily comment things out
 Plug 'scrooloose/nerdtree' " File browser
 Plug 'sheerun/vim-polyglot' " Syntax for loads of languages
+Plug 'slashmili/alchemist.vim'
 Plug 'slime-lang/vim-slime-syntax'
 Plug 'tpope/vim-endwise' " Automatic ends
 Plug 'tpope/vim-projectionist' " Magic stuff
