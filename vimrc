@@ -22,7 +22,6 @@ set directory=/var/tmp,~/.tmp,.
 set colorcolumn=120
 set synmaxcol=200
 set nowrap
-set signcolumn=yes
 
 colorscheme molokai
 
@@ -85,3 +84,9 @@ cnoreabbrev ag Ack
 cnoreabbrev aG Ack
 cnoreabbrev Ag Ack
 cnoreabbrev AG Ack
+
+if exists('&signcolumn')  " Vim 7.4.2201
+  set signcolumn=yes
+else
+  let g:gitgutter_sign_column_always = 1
+endif
